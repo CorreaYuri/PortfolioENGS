@@ -335,11 +335,11 @@ Quando não estou programando, gosto de <span className='text-blue-500 '>ouvir m
           <p>Você pode me encontrar nas redes sociais ou enviar um e-mail para mim.</p>
           <p>Estou ansioso para ouvir de você!</p>
           <div className="containerRedes md:text-lg  flex items-center justify-center gap-5 p-3">
-            <a href="http://"><i className="btnoptionsBtn-RedesSociais  text-slate-800 fa-brands fa-github btn-animado p-1 "></i></a>
-            <a href="http://"><i className="btnoptionsBtn-RedesSociais text-slate-800 fa-brands fa-linkedin-in btn-animado p-1"></i></a>
-            <a href="http://"><i className="btnoptionsBtn-RedesSociais text-slate-800 fa-brands fa-square-instagram btn-animado p-1"></i></a>
-            <a href="http://"><i className="btnoptionsBtn-RedesSociais text-slate-800 fa-brands fa-square-whatsapp btn-animado p-1"></i></a>
-            <a href="http://"><i className="btnoptionsBtn-RedesSociais text-slate-800 fa-solid fa-envelope btn-animado p-1"></i></a>
+            <a href="https://github.com/CorreaYuri"><i className="btnoptionsBtn-RedesSociais  text-slate-800 fa-brands fa-github btn-animado p-1 "></i></a>
+            <a href="https://www.linkedin.com/in/yuri-corr%C3%AAa-a9944646/"><i className="btnoptionsBtn-RedesSociais text-slate-800 fa-brands fa-linkedin-in btn-animado p-1"></i></a>
+            <a href="https://www.instagram.com/yury_correal/"><i className="btnoptionsBtn-RedesSociais text-slate-800 fa-brands fa-square-instagram btn-animado p-1"></i></a>
+            <a href="https://wa.me/5531996210613"><i className="btnoptionsBtn-RedesSociais text-slate-800 fa-brands fa-square-whatsapp btn-animado p-1"></i></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><i className="btnoptionsBtn-RedesSociais text-slate-800 fa-solid fa-envelope btn-animado p-1"></i></a>
             </div>
         </div>
         </div>
