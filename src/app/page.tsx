@@ -8,7 +8,7 @@ import projetoToDoListImg from '../assets/imgtodoList.png';
 
 export default function Home() {
   return (
-    <main className='h-screen'>
+    <main className='h-screen space-y-10 '>
       <header className='w-full flex justify-between bg-slate-950 p-5 shadow-xl/30  border-b-1 border-white' >
 
         
@@ -84,7 +84,7 @@ export default function Home() {
 
       <main id='sobre' className='p-5  flex items-center justify-center   '>
 
-        <section className='xl:flex-row  sobre h-screen flex flex-col xl:items-center  space-y-4'>
+        <section className='xl:flex-row  sobre  flex flex-col xl:items-center  space-y-4'>
           <div className='xl:w-full'>
           <h1 className='mb-5 text-center text-3xl text-blue-500'>Sobre mim</h1>
           </div>
@@ -123,8 +123,8 @@ Quando não estou programando, gosto de <span className='text-blue-500 '>ouvir m
 
       
 
-      <main id='habilidade' className=' xl:flex-row xl:space-x-5  containerHabilidades h-screen  space-y-5 flex items-center justify-center flex-col  '>
-        <div className='p-5'>
+      <main id='habilidade' className='  xl:flex-row xl:space-x-5  containerHabilidades   space-y-5 flex items-center justify-center flex-col  '>
+        <div className='p-'>
           <h1 className='text-center text-3xl text-blue-500 '>Habilidades</h1>
           <p className='md:text-lg text-white text-center'>Aqui estão algumas das minhas habilidades e <span className='text-blue-500'>tecnologias que domino</span> </p>
         </div>
@@ -279,7 +279,7 @@ Quando não estou programando, gosto de <span className='text-blue-500 '>ouvir m
 
       </main>
 
-      <main id='projetos' className='xl:flex-row xl:items-center xl:justify-center containerProjetos h-screen flex items-center justify-center flex-col space-y-5'>
+      <main id='projetos' className='xl:flex-row xl:items-center xl:justify-center containerProjetos  flex items-center justify-center flex-col '>
       <div className='xl:w-100 xl:text-end'>
         <h1 className='text-blue-500 text-3xl text-blue-500'>Projetos</h1>
       </div>
