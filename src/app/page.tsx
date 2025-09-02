@@ -5,6 +5,7 @@ import fotoMaior from '../assets/IMG_1977 2.png';
 import projetoBancoPessoalImg from '../assets/imgbancopessoal.png';
 import projetoEcomerceImg from '../assets/imgProjetoE-comerce.png';
 import projetoToDoListImg from '../assets/imgtodoList.png';
+/*import Timeline from '../components/TimeLine';*/
 
 export default function Home() {
   return (
@@ -61,7 +62,7 @@ export default function Home() {
             </div>
            
           </div>
-          
+    
         </div>
 
       </main>
@@ -131,10 +132,10 @@ Quando não estou programando, gosto de <span className='text-blue-500 '>ouvir m
 
         <div className='lg:space-y-4 lg:p-2 lg:w-full lg:items-center lg:gap-0 sm:grid-cols-2 sm:p-5  xl:grid-cols-2 xl:space-y-5 xl:space-x-5 xl:w-fitt xl:gap-0 grid md:grid-cols-2 lg:grid-cols-2 gap-5'>
 
-          <div className='lg:flex lg:flex-col lg:items-center'>
+          <div className=' lg:flex lg:flex-col lg:items-center'>
             <h2 className='text-white ml-2 mb-1 text-xs'>Liguagem de Programação</h2>
 
-            <div className='md:h-35 text-white border-1 border-dashed  border-blue-500 p-5 rounded-lg w-80 '>
+            <div className='efectScale md:h-35 text-white border-1 border-dashed  border-blue-500 p-5 rounded-lg w-80 '>
               <ul>
                 <div className='flex gap-2 items-center'>
                 <li>JavaScript</li>
@@ -163,9 +164,9 @@ Quando não estou programando, gosto de <span className='text-blue-500 '>ouvir m
         
         
         <div className='lg:flex lg:flex-col lg:items-center'>
-            <h2 className='text-white ml-2 text-xs mb-1'>Famework</h2>
+            <h2 className=' text-white ml-2 text-xs mb-1'>Famework</h2>
 
-            <div className='text-white border-1 border-dashed  border-blue-500 p-5 rounded-lg w-80 '>
+            <div className='efectScale text-white border-1 border-dashed  border-blue-500 p-5 rounded-lg w-80 '>
               <ul>
                 <div className='flex gap-2 items-center'>
                 <li>React</li>
@@ -202,7 +203,7 @@ Quando não estou programando, gosto de <span className='text-blue-500 '>ouvir m
         <div className='lg:flex lg:flex-col lg:items-center'>
             <h2 className='text-white ml-2 text-xs mb-1'>Abordagens e boas práticas</h2>
 
-            <div className='md:h-47 text-white border-1 border-dashed  border-blue-500 p-5 rounded-lg w-80 '>
+            <div className='efectScale md:h-47 text-white border-1 border-dashed  border-blue-500 p-5 rounded-lg w-80 '>
               <ul>
                 <div className='flex gap-2 items-center'>
                 <li>Clean code</li>
@@ -237,7 +238,7 @@ Quando não estou programando, gosto de <span className='text-blue-500 '>ouvir m
           <div className='lg:flex lg:flex-col lg:items-center'>
             <h2 className='text-white ml-2 text-xs mb-1'>SoftSkils</h2>
 
-            <div className='text-white border-1 border-dashed  border-blue-500 p-5 rounded-lg w-80 '>
+            <div className='efectScale text-white border-1 border-dashed  border-blue-500 p-5 rounded-lg w-80 '>
               <ul>
                 <div className='flex gap-2 items-center'>
                 <li>CNV</li>
@@ -281,15 +282,15 @@ Quando não estou programando, gosto de <span className='text-blue-500 '>ouvir m
 
       <main id='projetos' className='xl:flex-row xl:items-center xl:justify-center containerProjetos  flex items-center justify-center flex-col '>
       <div className='xl:w-100 xl:text-end'>
-        <h1 className='text-blue-500 text-3xl text-blue-500'>Projetos</h1>
+        <h1 className='text-blue-500 text-3xl text-blue-500 xl:mr-45'>Projetos</h1>
       </div>
 
-<div className="snap-x lg:justify-center xl:justify-center containerSlide w-full  flex overflow-x-auto space-x-4 p-4 scrollbar-hide ">
+<div className="snap-x lg:justify-center xl:w-200  xl:justify-start containerSlide w-full  flex overflow-x-auto space-x-4 p-4 scrollbar-hide ">
   {/* Slide 1 */}
   <div className="snap-center slide-item flex-shrink-0 text-white border border-blue-500 p-5 rounded-lg w-80 space-y-2">
     <h2 className="font-bold">BANCO PESSOAL</h2>
     <p className="text-xs">Aplicativo de gerenciamento de finanças pessoais.</p>
-    <a className='text-xs' href="http://"><i className="text-white fa-brands fa-github"></i></a>
+    <a className='text-lg' href="https://github.com/CorreaYuri/AppBancoPessoal"><i className="text-white fa-brands fa-github"></i></a>
     <div className="flex justify-center mt-2">
       <img className="efectProjetos  w-40" src={projetoBancoPessoalImg.src} alt="Projeto Banco Pessoal" />
     </div>
